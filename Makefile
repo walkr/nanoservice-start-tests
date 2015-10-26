@@ -1,11 +1,16 @@
 .PHONY: help
 
 help:
-	@echo "USAGE:"
 	@echo
-	@echo "1) Start nanoservices via 'make start'"
-	@echo "2) In a different shell execute 'make test' to call them"
+	@echo "USAGE: make [option]"
 	@echo
+	@echo "make install - install"
+	@echo "make start   - start nanoservices"
+	@echo "make test    - run basic tests"
+	@echo
+
+install:
+	@pip install -r requirements.txt
 
 start:
 	@honcho start
