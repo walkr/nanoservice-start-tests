@@ -8,7 +8,7 @@ help:
 	@echo
 
 start:
-	@honcho start &
+	@honcho start
 
 test:
 	@python test.py
