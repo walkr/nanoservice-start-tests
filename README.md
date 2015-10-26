@@ -1,7 +1,7 @@
 nanoservice-start-tests
 ========================
 
-Test if a collection of nanoservices start properly
+Test if a collection of nanoservices starts properly
 
 
 ## Usage
